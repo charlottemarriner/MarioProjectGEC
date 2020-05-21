@@ -1,0 +1,4 @@
+﻿  GameScreenManager.cpp
+C:\Users\Charlotte\OneDrive - Staffordshire University\SEMESTER 2\GEC NEW\MARIOSISTAS - NEWEST AND WORKING\MarioSistas\PowBlock.h(18,114): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Charlotte\OneDrive - Staffordshire University\SEMESTER 2\GEC NEW\MARIOSISTAS - NEWEST AND WORKING\MarioSistas\PowBlock.h(18,90): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  MarioSistas.vcxproj -> C:\Users\Charlotte\OneDrive - Staffordshire University\SEMESTER 2\GEC NEW\MARIOSISTAS - NEWEST AND WORKING\Debug\MarioSistas.exe

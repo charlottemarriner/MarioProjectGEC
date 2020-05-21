@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Player">
+      <UniqueIdentifier>{f0141294-3703-4f2e-8260-96d519db28f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Enemies">
+      <UniqueIdentifier>{c10577b2-17ba-424b-af77-25105c039f03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game Screen Sorter">
+      <UniqueIdentifier>{5da16b8f-3aed-4b26-bafe-a58156c8f125}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Other">
+      <UniqueIdentifier>{ff8a8005-39c5-438d-bc9f-9f642b446cef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Enemies">
+      <UniqueIdentifier>{935ed1b6-a7a6-47e0-ba07-5463308273b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Screen Sorter">
+      <UniqueIdentifier>{c218796c-95fc-4d47-b970-6520b0cc8568}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Other">
+      <UniqueIdentifier>{f86bb52e-d4e1-41cb-a50d-b4f1285c5d66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Player">
+      <UniqueIdentifier>{21c7f38c-e874-477b-b4d0-532e39c01be7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Character.cpp">
+      <Filter>Source Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterKoopa.cpp">
+      <Filter>Source Files\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterKrab.cpp">
+      <Filter>Source Files\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterLuigi.cpp">
+      <Filter>Source Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterMario.cpp">
+      <Filter>Source Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Coin.cpp">
+      <Filter>Source Files\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Collisions.cpp">
+      <Filter>Source Files\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScreen.cpp">
+      <Filter>Source Files\Game Screen Sorter</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScreenManager.cpp">
+      <Filter>Source Files\Game Screen Sorter</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScreenMenu.cpp">
+      <Filter>Source Files\Game Screen Sorter</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelMap.cpp">
+      <Filter>Source Files\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="PowBlock.cpp">
+      <Filter>Source Files\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture2D.cpp">
+      <Filter>Source Files\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScreenLevel1OnePlayer.cpp">
+      <Filter>Source Files\Game Screen Sorter</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScreenLevel1TwoPlayer.cpp">
+      <Filter>Source Files\Game Screen Sorter</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScreenLevel2OnePlayer.cpp">
+      <Filter>Source Files\Game Screen Sorter</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScreenLevel2TwoPlayer.cpp">
+      <Filter>Source Files\Game Screen Sorter</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScreenLevel3OnePlayer.cpp">
+      <Filter>Source Files\Game Screen Sorter</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScreenLevel3TwoPlayer.cpp">
+      <Filter>Source Files\Game Screen Sorter</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScreenLevel4OnePlayer.cpp">
+      <Filter>Source Files\Game Screen Sorter</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScreenLevel4TwoPlayer.cpp">
+      <Filter>Source Files\Game Screen Sorter</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScreenLevel5OnePlayer.cpp">
+      <Filter>Source Files\Game Screen Sorter</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScreenLevel5TwoPlayer.cpp">
+      <Filter>Source Files\Game Screen Sorter</Filter>
+    </ClCompile>
+    <ClCompile Include="BonusLevelCoins.cpp">
+      <Filter>Source Files\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="LuigiLives.cpp">
+      <Filter>Source Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="MarioLives.cpp">
+      <Filter>Source Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEffect.cpp">
+      <Filter>Source Files\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="Text.cpp">
+      <Filter>Source Files\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Source Files\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOverScreen.cpp">
+      <Filter>Source Files\Game Screen Sorter</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Character.h">
+      <Filter>Header Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterLuigi.h">
+      <Filter>Header Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterMario.h">
+      <Filter>Header Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterKoopa.h">
+      <Filter>Header Files\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterKrab.h">
+      <Filter>Header Files\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Coin.h">
+      <Filter>Header Files\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScreen.h">
+      <Filter>Header Files\Game Screen Sorter</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScreenManager.h">
+      <Filter>Header Files\Game Screen Sorter</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScreenMenu.h">
+      <Filter>Header Files\Game Screen Sorter</Filter>
+    </ClInclude>
+    <ClInclude Include="Collisions.h">
+      <Filter>Header Files\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Commons.h">
+      <Filter>Header Files\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Constants.h">
+      <Filter>Header Files\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelMap.h">
+      <Filter>Header Files\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="PowBlock.h">
+      <Filter>Header Files\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture2D.h">
+      <Filter>Header Files\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScreenLevel1OnePlayer.h">
+      <Filter>Header Files\Game Screen Sorter</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScreenLevel1TwoPlayer.h">
+      <Filter>Header Files\Game Screen Sorter</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScreenLevel2OnePlayer.h">
+      <Filter>Header Files\Game Screen Sorter</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScreenLevel2TwoPlayer.h">
+      <Filter>Header Files\Game Screen Sorter</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScreenLevel3OnePlayer.h">
+      <Filter>Header Files\Game Screen Sorter</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScreenLevel3TwoPlayer.h">
+      <Filter>Header Files\Game Screen Sorter</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScreenLevel4OnePlayer.h">
+      <Filter>Header Files\Game Screen Sorter</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScreenLevel4TwoPlayer.h">
+      <Filter>Header Files\Game Screen Sorter</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScreenLevel5OnePlayer.h">
+      <Filter>Header Files\Game Screen Sorter</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScreenLevel5TwoPlayer.h">
+      <Filter>Header Files\Game Screen Sorter</Filter>
+    </ClInclude>
+    <ClInclude Include="BonusLevelCoins.h">
+      <Filter>Header Files\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="LuigiLives.h">
+      <Filter>Header Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="MarioLives.h">
+      <Filter>Header Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEffect.h">
+      <Filter>Header Files\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>Header Files\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Header Files\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOverScreen.h">
+      <Filter>Header Files\Game Screen Sorter</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
